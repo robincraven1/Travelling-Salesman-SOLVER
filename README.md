@@ -3,7 +3,7 @@
 ## Overview
 
 4 different implementations of metaheuristic algorithms that aim to solve the Travelling Salesperson Problem (TSP). <br>
-Each algorithm tries to find the shortest possible route to visit a set of cities exactly once and return to the starting city. <br
+Each algorithm tries to find the shortest possible route to visit a set of cities exactly once and return to the starting city. 
 
 | Algorithm | Code | Tariff | Basic | Enhanced |
 |---|---|---|---|---|
