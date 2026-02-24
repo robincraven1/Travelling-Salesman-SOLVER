@@ -59,12 +59,12 @@ To use an algorithm to attempt to find the shortest possible route of a city dat
 
 ```bash
 cd ttsh43_for_submission                                   # cd into folder
-python AlgAbasic.py ../city-files/AISearchfile042.txt      # run [alg] [dataset]
+python AlgAbasic.py ../city-files/AISearchfile042.txt      # run [select alg] on [select dataset]
 ```
 
 ## Algorithm Results
 
-Running the above will generate a solution file that details the shortest route the algorithm COULD find.
-There are (2 enhanced algorithms * 10 city datasets) different solution files.
-Please read them, these are found inside ttsh43_for_submission
+Running the above will generate a solution file that details the shortest route the algorithm COULD find. <br>
+There are (2 enhanced algorithms * 10 city datasets) different solution files. <br>
+Please read them, these are found inside ttsh43_for_submission.
 
