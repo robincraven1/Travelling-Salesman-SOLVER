@@ -1,14 +1,13 @@
 # TSP Solver: Simulated Annealing & Genetic Algorithm
 
-Implementations of two metaheuristic algorithms to solve the Travelling Salesperson Problem (TSP). <br>
-To find the shortest possible route to visit a set of cities exactly once and return to the starting city. <br>
-Developed for the COMP2261 Artificial Intelligence module at Durham University.
+4 Implementations of metaheuristic algorithms that aim to solve the Travelling Salesperson Problem (TSP). <br>
+Each algorithm tries to find the shortest possible route to visit a set of cities exactly once and return to the starting city. <br>
 
 ## Overview
 
 4 Algorithms - (basicA, basicB, enhancedA, enhancedB) <br>
 10 city datasets, each containing between 12 to 535 cities <br>
-Use a combination of algorithm +++ city dataset, to find shortest possible route. 
+Please use a combination of algorithm + city dataset, to find shortest possible route. 
 
 | Algorithm | Code | Tariff | Basic | Enhanced |
 |---|---|---|---|---|
