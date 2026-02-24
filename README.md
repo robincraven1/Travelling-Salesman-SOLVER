@@ -31,7 +31,8 @@ Use a combination of algorithm +++ city dataset, to find shortest possible route
 
 #### AlgBbasic.py -- Genetic Algorithm (Basic)
 
-- Standard GA with random population initialisation, tournament selection, order crossover (OX), and swap mutation.
+- Standard GA with random population initialisation, tournament selection
+- As well as order crossover (OX), and swap mutation
 
 #### AlgBenhanced.py -- Genetic Algorithm (Enhanced)
 
