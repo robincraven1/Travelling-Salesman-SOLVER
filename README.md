@@ -16,23 +16,23 @@ Each algorithm (basicA, basicB, enhancedA, enhancedB) outputs the shortest possi
 
 ## ALGORITHMS
 
-#### Simulated Annealing (Algorithm A)
+### Simulated Annealing (Algorithm A - BASIC)
 
-**BASIC VERSION** 
 - Standard SA with random initial tour generation and 2-opt neighbourhood moves
 - Accepts worse solutions probabilistically based on a cooling temperature schedule
 
-**ENHANCED VERSION** 
+### Simulated Annealing (Algorithm A - ENHANCED)
+
 - Nearest-neighbour heuristic for initial tour construction
 - Multiple neighbourhood operators: 2-opt, node insertion, and Or-opt moves
 - Adaptive neighbourhood selection that favours operators producing improvements
 
-#### Genetic Algorithm (Algorithm B)
+#### Genetic Algorithm (Algorithm B - BASIC)
 
-**BASIC VERSION**
 - Standard GA with random population initialisation, tournament selection, order crossover (OX), and swap mutation.
 
-**ENHANCED VERSION** 
+### Genetic Algorithm (Algorithm B - ENHANCED)
+
 - Population seeded with nearest-neighbour heuristic tours
 - Additional inversion mutation operator alongside swap mutation
 - Adaptive mutation strategy
