@@ -5,9 +5,7 @@ Each algorithm tries to find the shortest possible route to visit a set of citie
 
 ## Overview
 
-4 Algorithms - (basicA, basicB, enhancedA, enhancedB) <br>
-10 city datasets, each containing between 12 to 535 cities <br>
-Please use a combination of algorithm + city dataset, to find shortest possible route. 
+4 Algorithms - (basicA, basicB, enhancedA, enhancedB) to solve 10 city datasets, each containing between 12 to 535 cities <br>
 
 | Algorithm | Code | Tariff | Basic | Enhanced |
 |---|---|---|---|---|
