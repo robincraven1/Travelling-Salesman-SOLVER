@@ -11,10 +11,12 @@ Developed for the COMP2261 Artificial Intelligence module at Durham University.<
 | **Simulated Annealing** | SA | 5 | `AlgAbasic.py` | `AlgAenhanced.py` |
 | **Genetic Algorithm** | GA | 6 | `AlgBbasic.py` | `AlgBenhanced.py` |
 
-10 city datasets, each containing between 12 to 535 cities. <br>
-Each algorithm (basicA, basicB, enhancedA, enhancedB) outputs the shortest possible route it could find for a giiven dataset. 
 
-## ALGORITHMS
+4 Algorithms - (basicA, basicB, enhancedA, enhancedB) <br>
+10 city datasets, each containing between 12 to 535 cities <br>
+Use a combination of algorithm +++ city dataset, to find shortest possible route. 
+
+## TSP SOLVER ALGORITHM CHOICES
 
 ### Simulated Annealing (Algorithm A - BASIC)
 
@@ -27,7 +29,7 @@ Each algorithm (basicA, basicB, enhancedA, enhancedB) outputs the shortest possi
 - Multiple neighbourhood operators: 2-opt, node insertion, and Or-opt moves
 - Adaptive neighbourhood selection that favours operators producing improvements
 
-#### Genetic Algorithm (Algorithm B - BASIC)
+### Genetic Algorithm (Algorithm B - BASIC)
 
 - Standard GA with random population initialisation, tournament selection, order crossover (OX), and swap mutation.
 
