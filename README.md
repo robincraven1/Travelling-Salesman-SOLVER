@@ -18,22 +18,22 @@ Use a combination of algorithm +++ city dataset, to find shortest possible route
 
 ## TSP Solver Algorithm Choices
 
-### Simulated Annealing (Algorithm A - BASIC)
+### AlgAbasic.py -- Simulated Annealing (Basic)
 
 - Standard SA with random initial tour generation and 2-opt neighbourhood moves
 - Accepts worse solutions probabilistically based on a cooling temperature schedule
-
-### Simulated Annealing (Algorithm A - ENHANCED)
+ 
+### AlgAenhanced.py -- Simulated Annealing (Enhanced)
 
 - Nearest-neighbour heuristic for initial tour construction
 - Multiple neighbourhood operators: 2-opt, node insertion, and Or-opt moves
 - Adaptive neighbourhood selection that favours operators producing improvements
 
-### Genetic Algorithm (Algorithm B - BASIC)
+### AlgBbasic.py -- Genetic Algorithm (Basic)
 
 - Standard GA with random population initialisation, tournament selection, order crossover (OX), and swap mutation.
 
-### Genetic Algorithm (Algorithm B - ENHANCED)
+### AlgBenhanced.py -- Genetic Algorithm (Enhanced)
 
 - Population seeded with nearest-neighbour heuristic tours
 - Additional inversion mutation operator alongside swap mutation
