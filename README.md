@@ -64,7 +64,7 @@ python AlgAbasic.py ../city-files/AISearchfile042.txt      # run [select alg] on
 
 ## Algorithm Results
 
-Running the above will generate a solution file that details the shortest route the algorithm COULD find. <br>
-There are (2 enhanced algorithms * 10 city datasets) different solution files. <br>
-Please read them, these are found inside ttsh43_for_submission.
+Running the above generates a solution file that details the shortest route the algorithm COULD find. <br>
+There are (2 enhanced algorithms * 10 city datasets) pre-generated solution files. <br>
+These are found inside ttsh43_for_submission.
 
