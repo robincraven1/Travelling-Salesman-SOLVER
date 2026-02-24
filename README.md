@@ -1,8 +1,8 @@
 # TSP Solver: Simulated Annealing & Genetic Algorithm
 
-Implementations of two metaheuristic algorithms to solve the Travelling Salesperson Problem (TSP).<br>
-An optimization problem aimed at finding the shortest possible route to visit a set of cities exactly once and return to the starting city.<br>
-Developed for the COMP2261 Artificial Intelligence module at Durham University.<br>
+Implementations of two metaheuristic algorithms to solve the Travelling Salesperson Problem (TSP). <br>
+To find the shortest possible route to visit a set of cities exactly once and return to the starting city. <br>
+Developed for the COMP2261 Artificial Intelligence module at Durham University.
 
 ## Overview
 
@@ -18,22 +18,22 @@ Use a combination of algorithm +++ city dataset, to find shortest possible route
 
 ## TSP Solver Algorithm Choices
 
-### AlgAbasic.py -- Simulated Annealing (Basic)
+#### AlgAbasic.py -- Simulated Annealing (Basic)
 
 - Standard SA with random initial tour generation and 2-opt neighbourhood moves
 - Accepts worse solutions probabilistically based on a cooling temperature schedule
  
-### AlgAenhanced.py -- Simulated Annealing (Enhanced)
+#### AlgAenhanced.py -- Simulated Annealing (Enhanced)
 
 - Nearest-neighbour heuristic for initial tour construction
 - Multiple neighbourhood operators: 2-opt, node insertion, and Or-opt moves
 - Adaptive neighbourhood selection that favours operators producing improvements
 
-### AlgBbasic.py -- Genetic Algorithm (Basic)
+#### AlgBbasic.py -- Genetic Algorithm (Basic)
 
 - Standard GA with random population initialisation, tournament selection, order crossover (OX), and swap mutation.
 
-### AlgBenhanced.py -- Genetic Algorithm (Enhanced)
+#### AlgBenhanced.py -- Genetic Algorithm (Enhanced)
 
 - Population seeded with nearest-neighbour heuristic tours
 - Additional inversion mutation operator alongside swap mutation
