@@ -1,0 +1,8 @@
+USER = ttsh43 ( ),
+ALGORITHM CODE = SA, NAME OF CITY-FILE = AISearchfile012.txt,
+SIZE = 12, TOUR LENGTH = 56,
+0,10,5,8,9,11,1,2,6,3,7,4,
+NOTE = Simulated Annealing basic implementation
+RUN-TIME = 0.5 seconds.
+DATE-TIME = 24/02/2026-13:52:02.
+CERTIFICATE = 1710.

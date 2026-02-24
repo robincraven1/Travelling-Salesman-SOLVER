@@ -1,0 +1,9 @@
+USER = ttsh43 ( ),
+ALGORITHM CODE = GA, NAME OF CITY-FILE = AISearchfile048.txt,
+SIZE = 48, TOUR LENGTH = 13199,
+32,7,4,27,47,25,14,43,6,3,34,1,30,44,23,35,36,17,12,26,16,19,0,5,24,22,2,33,29,8,18,37,31,20,28,45,11,41,13,39,46,40,21,9,15,42,10,38,
+NOTE = Genetic Algorithm ENHANCED with elitism, 2-opt local search, and inversion mutation
+The parameter values are 'max_it' = 500 and 'pop_size' = 50.
+RUN-TIME = 1.8 seconds.
+DATE-TIME = 24/02/2026-13:54:25.
+CERTIFICATE = 2473.
