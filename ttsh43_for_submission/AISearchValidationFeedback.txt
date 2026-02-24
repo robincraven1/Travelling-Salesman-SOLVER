@@ -1,6 +1,6 @@
 Feedback for user-ID ttsh43 at Feb 24 13:56:29
 
-Throughout this validation, as many error messages as possible are returned in order to help you understand what might have gone wrong. However, note that sometimes a single error might lead to early termination of the validation process so that fixing this error results in more, as yet unseen, errors. So, the list of error messages might not be exhaustive but it's the best I can do!
+Throughout this validation, as many error messages as possible are returned in order to help you understand what might have gone wrong. However, note that sometimes a single error might lead to early termination of the validation process so that fixing this error results in more, as yet unseen, errors. So, the list of error messages might not be exhaustive.
 
 The first part of this feedback is validation of the program files that you submitted, in terms of the key information they need to contain. At this stage, the programs are not executed; that will follow later. Please note that for any program cluster, if any of the following are true then the program cluster is INVALID and neither it nor the tours it produces will secure any marks:
  - the basic program does not exist
