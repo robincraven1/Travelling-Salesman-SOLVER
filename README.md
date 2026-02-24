@@ -4,7 +4,7 @@ Implementations of two metaheuristic algorithms to solve the Travelling Salesper
 An optimization problem aimed at finding the shortest possible route to visit a set of cities exactly once and return to the starting city.<br>
 Developed for the COMP2261 Artificial Intelligence module at Durham University.<br>
 
-## OVERVIEW
+## Overview
 
 | Algorithm | Code | Tariff | Basic | Enhanced |
 |---|---|---|---|---|
@@ -16,7 +16,7 @@ Developed for the COMP2261 Artificial Intelligence module at Durham University.<
 10 city datasets, each containing between 12 to 535 cities <br>
 Use a combination of algorithm +++ city dataset, to find shortest possible route. 
 
-## TSP SOLVER ALGORITHM CHOICES
+## TSP Solver Algorithm Choices
 
 ### Simulated Annealing (Algorithm A - BASIC)
 
@@ -40,7 +40,7 @@ Use a combination of algorithm +++ city dataset, to find shortest possible route
 - Adaptive mutation strategy
 - 2-opt local search applied to offspring for hybrid GA approach
 
-## PROJECT STRUCTURE
+## Project Structure
 
 ```
 ├── city-files/                          # Each city dataset (12–535 cities)
@@ -58,7 +58,7 @@ Use a combination of algorithm +++ city dataset, to find shortest possible route
 ├── validate_before_handin.py            # Validation check of files, feedback is inside ttsh43
 ```
 
-## HOW TO USE
+## How to use
 
 To use an algorithm to attempt to find the shortest possible route of a city dataset:
 
@@ -67,7 +67,7 @@ cd ttsh43_for_submission                                   # cd into folder
 python AlgAbasic.py ../city-files/AISearchfile042.txt      # run [alg] [dataset]
 ```
 
-## ALGORITHM RESULTS
+## Algorithm Results
 
 Running the above will generate a solution file that details the shortest route the algorithm COULD find.
 There are (2 enhanced algorithms * 10 city datasets) different solution files.
