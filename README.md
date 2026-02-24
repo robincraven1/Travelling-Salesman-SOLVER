@@ -6,35 +6,34 @@ Developed for the COMP2261 Artificial Intelligence module at Durham University.
 
 ## Overview
 
+4 Algorithms - (basicA, basicB, enhancedA, enhancedB) <br>
+10 city datasets, each containing between 12 to 535 cities <br>
+Use a combination of algorithm +++ city dataset, to find shortest possible route. 
+
 | Algorithm | Code | Tariff | Basic | Enhanced |
 |---|---|---|---|---|
 | **Simulated Annealing** | SA | 5 | `AlgAbasic.py` | `AlgAenhanced.py` |
 | **Genetic Algorithm** | GA | 6 | `AlgBbasic.py` | `AlgBenhanced.py` |
 
+## TSP Solver Algorithms 
 
-4 Algorithms - (basicA, basicB, enhancedA, enhancedB) <br>
-10 city datasets, each containing between 12 to 535 cities <br>
-Use a combination of algorithm +++ city dataset, to find shortest possible route. 
-
-## TSP Solver Algorithm Choices
-
-#### AlgAbasic.py -- Simulated Annealing (Basic)
+#### 1) AlgAbasic.py -- Simulated Annealing (Basic)
 
 - Standard SA with random initial tour generation and 2-opt neighbourhood moves
 - Accepts worse solutions probabilistically based on a cooling temperature schedule
  
-#### AlgAenhanced.py -- Simulated Annealing (Enhanced)
+#### 2) AlgAenhanced.py -- Simulated Annealing (Enhanced)
 
 - Nearest-neighbour heuristic for initial tour construction
 - Multiple neighbourhood operators: 2-opt, node insertion, and Or-opt moves
 - Adaptive neighbourhood selection that favours operators producing improvements
 
-#### AlgBbasic.py -- Genetic Algorithm (Basic)
+#### 3) AlgBbasic.py -- Genetic Algorithm (Basic)
 
 - Standard GA with random population initialisation, tournament selection
 - As well as order crossover (OX), and swap mutation
 
-#### AlgBenhanced.py -- Genetic Algorithm (Enhanced)
+#### 4) AlgBenhanced.py -- Genetic Algorithm (Enhanced)
 
 - Population seeded with nearest-neighbour heuristic tours
 - Additional inversion mutation operator alongside swap mutation
