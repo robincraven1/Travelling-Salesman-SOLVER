@@ -1,24 +1,22 @@
 # TSP Solver: Simulated Annealing & Genetic Algorithm
 
-Implementations of two metaheuristic algorithms to solve the Travelling Salesperson Problem (TSP).
-An optimization problem aimed at finding the shortest possible route to visit a set of cities exactly once and return to the starting city.
-Developed for the COMP2261 Artificial Intelligence module at Durham University.
+Implementations of two metaheuristic algorithms to solve the Travelling Salesperson Problem (TSP).<br>
+An optimization problem aimed at finding the shortest possible route to visit a set of cities exactly once and return to the starting city.<br>
+Developed for the COMP2261 Artificial Intelligence module at Durham University.<br>
 
 ## OVERVIEW
-
-This project tackles the TSP using two distinct implementations, each with a basic and enhanced variant:
 
 | Algorithm | Code | Tariff | Basic | Enhanced |
 |---|---|---|---|---|
 | **Simulated Annealing** | SA | 5 | `AlgAbasic.py` | `AlgAenhanced.py` |
 | **Genetic Algorithm** | GA | 6 | `AlgBbasic.py` | `AlgBenhanced.py` |
 
-10 city datasets, each containing between 12 to 535 cities.
-Each algorithm outputs the shortest possible route it could find wthin each dataset. 
+10 city datasets, each containing between 12 to 535 cities. <br>
+Each algorithm (basicA, basicB, enhancedA, enhancedB) outputs the shortest possible route it could find for a giiven dataset. 
 
 ## ALGORITHMS
 
-### Simulated Annealing (Algorithm A)
+#### Simulated Annealing (Algorithm A)
 
 **BASIC VERSION** 
 - Standard SA with random initial tour generation and 2-opt neighbourhood moves
@@ -29,7 +27,7 @@ Each algorithm outputs the shortest possible route it could find wthin each data
 - Multiple neighbourhood operators: 2-opt, node insertion, and Or-opt moves
 - Adaptive neighbourhood selection that favours operators producing improvements
 
-### Genetic Algorithm (Algorithm B)
+#### Genetic Algorithm (Algorithm B)
 
 **BASIC VERSION**
 - Standard GA with random population initialisation, tournament selection, order crossover (OX), and swap mutation.
@@ -60,17 +58,16 @@ Each algorithm outputs the shortest possible route it could find wthin each data
 
 ## HOW TO USE
 
-To use an algorithm to find the shortest possible route within a city dataset:
+To use an algorithm to attempt to find the shortest possible route of a city dataset:
 
 ```bash
 cd ttsh43_for_submission                                   # cd into folder
 python AlgAbasic.py ../city-files/AISearchfile042.txt      # run [alg] [dataset]
 ```
 
-## FINAL NOTES
+## ALGORITHM RESULTS
 
-All files were validated before submission by doing the following:
+Running the above will generate a solution file that details the shortest route the algorithm COULD find.
+There are (2 enhanced algorithms * 10 city datasets) different solution files.
+Please read them, these are found inside ttsh43_for_submission
 
-```bash
-python validate_before_handin.py
-```
